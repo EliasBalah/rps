@@ -1,0 +1,22 @@
+{
+  "name": "rps-project",
+  "version": "1.0.0",
+  "description": "This is a small project to develop the Rock, Paper and Scissors application",
+  "main": "index.html",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://eliasbalah@bitbucket.org/eliasbalah/rps.git"
+  },
+  "author": "Ilias Balah",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/eliasbalah/rps#readme"
+}
