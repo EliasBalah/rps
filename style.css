@@ -1,0 +1,117 @@
+body{
+   background-color:  rgb(154, 133, 177);
+   min-width: 366px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 70vh;
+}
+
+.score {
+    margin: 10px 0 0 0;
+}
+.score p {
+    text-align: center;
+}
+.intro{
+    margin-top: 170px;
+}
+.intro img {
+    margin-bottom: 25px;
+}
+.intro button{
+    margin-top: 20px;
+}
+.match {
+    margin-top: 130px;
+}
+h1 {
+    font-size: 190%;
+}
+
+.rock-btn, .paper-btn, .scissors-btn, .exit-btn, .restart-btn{
+    margin: 0px 10px 0px 10px;
+}
+.player-hand{
+    margin-right: 45px;
+    transform: rotateY(180deg);
+}
+.computer-hand{
+    margin-left: 45px;
+}
+
+.restartexit-btn {
+    margin-top: 90px;
+}
+
+.fadeOut{
+    display: none;
+}
+
+/*
+section {
+    border: 1px solid red;
+}
+*/
+@keyframes shakePlayerHand{
+    0%{
+        transform: rotateY(180deg) translateY(0px);
+    }
+    15%{
+        transform: rotateY(180deg) translateY(-30px);
+    }
+    25%{
+        transform: rotateY(180deg) translateY(0px);
+    }
+    35%{
+        transform: rotateY(180deg) translateY(-30px);
+    }
+    50%{
+        transform: rotateY(180deg) translateY(0px);
+    }
+    65%{
+        transform: rotateY(180deg) translateY(-30px);
+    }
+    75%{
+        transform: rotateY(180deg) translateY(0px);
+    }
+    85%{
+        transform: rotateY(180deg) translateY(-30px);
+    }
+    100%{
+        transform: rotateY(180deg) translateY(0px);
+    }
+}
+
+@keyframes shakeComputerHand {
+    0%{
+        transform: translateY(0px);
+    }
+    15%{
+        transform: translateY(-30px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    35%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    65%{
+        transform: translateY(-30px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    85%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
